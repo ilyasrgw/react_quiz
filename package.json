@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && copy data\\questions.json build\\data\\questions.json",
+    "build": "react-scripts build && copyfiles data/questions.json build/data",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch data/questions.json --port 8000",
@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "gh-pages": "^6.1.1"
   }
 }
