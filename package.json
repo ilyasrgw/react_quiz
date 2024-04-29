@@ -28,7 +28,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://ilyasrgw.github.io/react_quiz",
   "browserslist": {
     "production": [
       ">0.2%",
