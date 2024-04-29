@@ -8,7 +8,7 @@ import Question from "./Question";
 import Options from "./Options";
 import NextButton from "./NextButton";
 import Progress from "./Progress";
-import FinishScreen from "../FinishScreen";
+import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
 import Timer from "./Timer";
 
